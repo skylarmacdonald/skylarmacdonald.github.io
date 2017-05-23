@@ -6,8 +6,6 @@ description: >
   I also make bots and build websites sometimes.
 baseurl: ""
 url: ""
-twitter_username: skylarmacdonald
-github_username:  skylarmacdonald
 
 # Build settings
 markdown: kramdown
