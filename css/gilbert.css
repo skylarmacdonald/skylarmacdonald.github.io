@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'gilbert';
+    src: url('gilbert.otf') format('otf'),
+    	 url('gilbert.woff2') format('woff2'),
+         url('gilbert.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

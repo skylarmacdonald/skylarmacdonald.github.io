@@ -1,0 +1,63 @@
+body {
+	background: #fff url('/img/03.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.hero-unit,
+article {
+	margin-top: 100px;
+	background-color: rgba(238, 238, 238, 0.8);
+	line-height: 1.2;
+}
+.hero-unit h1,
+article h1 { font-size: 3.5em }
+h2 {
+	text-align: center;
+	font-size: 1.2em;
+	margin: -20px 0 30px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+p.byline {
+	font-style: italic;
+	font-size: 0.9em;
+}
+dt { margin-top: 10px; }
+#circle-images {
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;
+	float: left;
+	margin-right: 30px;
+	width: 200px;
+	height: 200px;
+	border: 5px solid #3399f3;
+	opacity: 1;
+	background: url('//www.gravatar.com/avatar/4a48d44c59a1475ab2ef32c9c10157c5?s=200&d=404') no-repeat center center;
+	background-size: cover;
+	-webkit-transition: background-image 0.3s;
+	transition: background-image 0.3s;
+}
+#circle-images.lasershark { background-image: url('/circle-images/lasershark.png'); }
+#circle-images.gkly { background-image: url('/circle-images/gkly.png'); }
+#circle-images.twitter { background-image: url('/circle-images/twitter.png'); }
+#circle-images.tinykettle { background-image: url('/circle-images/tinykettle.png'); }
+#circle-images.tellyblob { background-image: url('/circle-images/tellyblob.png'); }
+div#words { margin-left: 250px; }
+span#cookies {
+	color: #fff;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	font-size: 0.8em;
+	line-height: 1em;
+}
+@media screen and (max-width: 767px) {
+	div#words { margin-left: 0; }
+	.hero-unit h1,
+	article h1 { font-size: 2.25em; }
+}
