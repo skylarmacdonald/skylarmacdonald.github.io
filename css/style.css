@@ -27,7 +27,7 @@ p.byline {
 	font-size: 0.9em;
 }
 dt { margin-top: 10px; }
-#circle-images {
+#circle {
 	-webkit-border-radius: 500px;
 	-moz-border-radius: 500px;
 	border-radius: 500px;
@@ -42,11 +42,11 @@ dt { margin-top: 10px; }
 	-webkit-transition: background-image 0.3s;
 	transition: background-image 0.3s;
 }
-#circle-images.lasershark { background-image: url('/circle-images/lasershark.png'); }
-#circle-images.gkly { background-image: url('/circle-images/gkly.png'); }
-#circle-images.twitter { background-image: url('/circle-images/twitter.png'); }
-#circle-images.tinykettle { background-image: url('/circle-images/tinykettle.png'); }
-#circle-images.tellyblob { background-image: url('/circle-images/tellyblob.png'); }
+#circle.lasershark { background-image: url('/img/circle/lasershark.png'); }
+#circle.gkly { background-image: url('/img/circle/gkly.png'); }
+#circle.twitter { background-image: url('/img/circle/twitter.png'); }
+#circle.tinykettle { background-image: url('/img/circle/tinykettle.png'); }
+#circle.tellyblob { background-image: url('/img/circle/tellyblob.png'); }
 div#words { margin-left: 250px; }
 span#cookies {
 	color: #fff;
