@@ -7,6 +7,10 @@ description: >
 baseurl: ""
 url: ""
 
+collections:
+  talks:
+    output: true
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -21,3 +25,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       author: Skylar MacDonald
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talks
