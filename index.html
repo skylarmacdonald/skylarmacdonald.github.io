@@ -11,13 +11,13 @@
 		<link rel="canonical" href="https://skylarmacdonald.com" />
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/spacelab/bootstrap.min.css" />
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" />
-		<link rel="stylesheet" href="/css/style.css" />
 
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-57x57-precomposed.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png" />
 		<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png" />
+		<link rel="stylesheet" href="{% link /css/style.css %}" />
 
 		<!-- Public key -->
 		<link href="https://keybase.io/chrischapman/key.asc" rel="pgpkey" type="text/plain" />
@@ -33,7 +33,7 @@
 				<div id="words">
 					<h1 style="margin-bottom: 20px">Hi, I'm <span itemprop="name">Skylar MacDonald</span>.</h1>
 					<p class="lead">I'm from <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">London</span>, <span itemprop="country-name">UK</span></span> and I do things in telly and radio. I make shows at <a href="https://tinykettle.com" target="_blank" data-img="tinykettle">Tiny Kettle</a> (like <a href="http://tellyblob.com" target="_blank" data-img="tellyblob">Tellyblob</a> and <a href="http://gkly.co" target="_blank" data-img="gkly">The Geekly Chronicles</a>), I'm the nerd behind <a href="https://lasershark.uk" target="_blank" data-img="lasershark">Laser Shark</a>, and occasionally I <a href="https://twitter.com/helloiamskylar" target="_blank" data-img="twitter">tweet things</a>.</p>
-					<p>Sometimes I make <a href="/bots">bots</a> or <a href="/webshits">other terrible ideas</a>. I'm also findable on <a href="https://github.com/skylarmacdonald" target="_blank">GitHub</a> and <a href="https://uk.linkedin.com/in/skylarmacdonald" target="_blank">LinkedIn</a>. I did indeed <a href="/faq">change my name</a>.</p>
+					<p>Sometimes I make <a href="{% link bots.html %}">bots</a> or <a href="{% link webshits.html %}">other terrible ideas</a>. I'm also findable on <a href="https://github.com/skylarmacdonald" target="_blank">GitHub</a> and <a href="https://uk.linkedin.com/in/skylarmacdonald" target="_blank">LinkedIn</a>. I did indeed <a href="{% link faq.html %}">change my name</a>.</p>
 				</div>
 			</div>
 			<span id="cookies">This site uses cookies.</span>
