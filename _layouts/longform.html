@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }} | {{ site.title }}</title>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="{{ page.description }}" />
+		<meta name="author" content="{{ page.author }}" />
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/spacelab/bootstrap.min.css" />
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" />
+		<link rel="stylesheet" href="/css/style.css" />
+
+		{% include analytics.html %}
+	</head>
+	<body>
+		<div class="container">
+			<article class="hero-unit">
+				{{ content }}
+			</article>
+			<span id="cookies">This site uses cookies.</span>
+		</div>
+	</body>
+</html>
