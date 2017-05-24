@@ -3,14 +3,18 @@ layout: longform
 title: Skylar MacDonald's &ldquo;Skylar MacDonald&rdquo; FAQ
 description: I changed my name. It turns out, people ask you lots of questions when you do that.
 ---
-<h2>Skylar MacDonald's &ldquo;Skylar MacDonald&rdquo; FAQ</h2>
-<h1 style="margin-bottom: 20px">Hi, I'm Skylar MacDonald.</h1>
-<p class="lead">Recently, I took the decision to change my name to Skylar MacDhòmhnaill (but you can call me Skylar MacDonald). As it turns out, when you change your name, people have a lot of questions. Here are the answers to some of them.</p>
-<p>I have been asked all of these questions at least once. I'm sure I will update this as time goes on with more questions I get asked.</p>
+## Skylar MacDonald's &ldquo;Skylar MacDonald&rdquo; FAQ
+
+# Hi, I'm Skylar MacDonald.
+
+Recently, I took the decision to change my name to Skylar MacDhòmhnaill (but you can call me Skylar MacDonald). As it turns out, when you change your name, people have a lot of questions. Here are the answers to some of them.
+
+I have been asked all of these questions at least once. I'm sure I will update this as time goes on with more questions I get asked.
+
 <dl>
 	<dt>Why did you change your name?</dt>
 	<dd><a href="https://www.gov.uk/change-name-deed-poll/overview" target="_blank">Because I can.</a></dd>
-	<dt>No, but, really&mdash;why?</dt>
+	<dt>No, but, really &mdash; why?</dt>
 	<dd>See above.</dd>
 	<dt>Why did you choose &ldquo;Skylar MacDonald&rdquo;?</dt>
 	<dd>The long answer is beyond the scope of this FAQ. The short answer is: because I like it.</dd>
@@ -20,7 +24,7 @@ description: I changed my name. It turns out, people ask you lots of questions w
 	<dd>No.</dd>
 	<dt>Do you have any middle names?</dt>
 	<dd>Yes: Leith. Not as in <a href="https://en.wikipedia.org/wiki/Leith" target="_blank">the district</a>.</dd>
-	<dt>How do you pronounce &ldquo;MacDhòmhnaill&rsquo;?</dt>
+	<dt>How do you pronounce &lsquo;MacDhòmhnaill&rsquo;?</dt>
 	<dd>It's roughly the same as &ldquo;MacDonald&rdquo;. It's going to be easier for everyone if you just say &ldquo;MacDonald&rdquo;.</dd>
 	<dt>Does this mean you're&hellip;?</dt>
 	<dd>Probably not.</dd>
@@ -59,7 +63,11 @@ description: I changed my name. It turns out, people ask you lots of questions w
 	<dt>If you were going to do this, why didn't you choose <span class="label label-info">(funny name)</span>?</dt>
 	<dd>Two reasons. One: choosing the best joke is difficult, as I've then got to live with it (until such time as I can be bothered to do this all again). Two: my name isn't always going to be used in jokey contexts. I'm going to have to give my name to get through immigration control, or if I'm summoned for jury duty. Sometimes, having a name that isn't funny is a good idea.</dd>
 </dl>
-<hr />
-<p>Names are an important part of identity. While I don't necessarily mind that much if you get my name wrong every now and again, it's really important&mdash;for me and for everyone else&mdash;that if someone tells you their name, that's what you call them (and if someone tells you that their name has changed, you change what you call them). There doesn't need to be a reason, and if there is, it's not your right to know what it is.</p>
-<p>I hope I've answered your question about my new name. If I haven't, feel free to <a href="mailto:namechange@skylarmacdonald.com">ask me</a>, although I can't guarantee you'll get an answer. (Ask a silly question&hellip;)</p>
+
+-----
+
+Names are an important part of identity. While I don't necessarily mind that much if you get my name wrong every now and again, it's really important --- for me and for everyone else --- that if someone tells you their name, that's what you call them (and if someone tells you that their name has changed, you change what you call them). There doesn't need to be a reason, and if there is, it's not your right to know what it is.
+
+I hope I've answered your question about my new name. If I haven't, feel free to [ask me](mailto:namechange@skylarmacdonald.com), although I can't guarantee you'll get an answer. (Ask a silly question...)
+
 <p style="font-size: 0.8em">I'm indebted to <a href="https://danq.me" target="_blank" title="Dan Q's website">Dan Q</a>, whose name change FAQ inspired most of the questions here. He also built <a href="https://freedeedpoll.org.uk" target="_blank" title="Free UK Deed Poll generator">the thing I used to change my name</a>. Huge thanks also to all of the friends who've helped me with this.</p>
