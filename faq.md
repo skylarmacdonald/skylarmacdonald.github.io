@@ -3,7 +3,7 @@ layout: longform
 title: Skylar MacDonald's &ldquo;Skylar MacDonald&rdquo; FAQ
 description: I changed my name. It turns out, people ask you lots of questions when you do that.
 ---
-## Skylar MacDonald's &ldquo;Skylar MacDonald&rdquo; FAQ
+## {{ page.title }}
 
 # Hi, I'm Skylar MacDonald.
 
