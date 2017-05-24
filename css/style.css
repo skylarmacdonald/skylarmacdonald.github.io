@@ -12,7 +12,10 @@ article {
 	line-height: 1.2;
 }
 .hero-unit h1,
-article h1 { font-size: 3.5em }
+article h1 {
+	font-size: 3.5em;
+	margin-bottom: 20px;
+}
 h2 {
 	text-align: center;
 	font-size: 1.2em;

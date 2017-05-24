@@ -3,7 +3,7 @@ layout: longform
 title: Falsehoods Programmers Believe About Me
 description: Changing your name is surprisingly easy. Updating it on every system is a real pain.
 ---
-<h1 style="margin-bottom: 20px">{{ page.title }}</h1>
+# {{ page.title }}
 <p class="byline">by <a href="{% link index.html %}">{{ page.author }}</a></p>
 <p class="lead">I'm sure we're all aware of the excellent article <a href="http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/" target="_blank">Falsehoods Programmers Believe About Names</a> by Patrick McKenzie. It's a wonderful list of everything that programmers assume when designing systems that handle names.</p>
 I [changed my name recently]({% link faq.html %}), so I've had the fun of updating my name on every system that knows who I am. To add additional complications to the process, my new last name is Scottish Gaelic (MacDhòmhnaill), and I go by both Skylar and Skye. Here is what I specifically have had to deal with so far.
