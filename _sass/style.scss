@@ -25,9 +25,17 @@ h2 {
 	letter-spacing: 3px;
 	font-weight: bold;
 }
-p.byline {
+article p:first-of-type {
+	margin-bottom: 21px;
+    font-size: 22.5px;
+    font-weight: 200;
+    line-height: 31.5px;
+}
+.byline {
+	display: block;
 	font-style: italic;
 	font-size: 0.9em;
+	margin: 0 0 10.5px;
 }
 dt { margin-top: 10px; }
 #circle {
