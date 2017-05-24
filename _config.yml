@@ -9,6 +9,8 @@ permalink: pretty
 collections:
   talks:
     output: true
+sass:
+    sass_dir: _sass
 
 # Build settings
 markdown: kramdown
