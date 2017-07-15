@@ -12,4 +12,4 @@ This talk is based on my article [Falsehoods Programmers Believe About Me]({% li
 * [#genderUX by Kylie Jack](http://43epnd.axshare.com/gender.html)
 
 ### Slides
-The slides will be posted soon.
+<script async class="speakerdeck-embed" data-id="2de2be4deb7a48e1bc93e5035c123cae" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
