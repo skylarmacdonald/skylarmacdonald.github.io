@@ -22,12 +22,14 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dd>No.</dd> <!-- Alyssa, the fact that we went to see Amy MacDonald four days before I told you I was changing my name is irrelevant. -->
 	<dt>Oh, Skylar, did you choose that because of&mdash;</dt>
 	<dd>No.</dd>
+	<dt>But&mdash;</dt>
+	<dd>I've never seen Breaking Bad.</dd>
 	<dt>Do you have any middle names?</dt>
 	<dd>Yes: Leith. Not as in <a href="https://en.wikipedia.org/wiki/Leith" target="_blank">the district</a>.</dd>
 	<dt>How do you pronounce &lsquo;MacDhòmhnaill&rsquo;?</dt>
 	<dd>It's roughly the same as &ldquo;MacDonald&rdquo;. It's going to be easier for everyone if you just say &ldquo;MacDonald&rdquo;.</dd>
 	<dt>Does this mean you're&hellip;?</dt>
-	<dd>Probably not.</dd>
+	<dd>¯\_(ツ)_/¯</dd> <!-- Shut up, Puck. <3 -->
 	<dt>Did you actually change your legal name?</dt>
 	<dd>Yep!</dd>
 	<dt>How did you do it?</dt>
@@ -39,7 +41,7 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dt>Can I call you Skye?</dt>
 	<dd>Yes.</dd>
 	<dt>What pronouns should I use for you?</dt>
-	<dd>I don't really mind, to be honest. Pick whatever works for you. Some people have been using <a href="http://pronoun.is/they" target="_blank">they/them</a> because I don't have a preference.</dd>
+	<dd><a href="http://pronoun.is/she" target="_blank">She/her</a>, please.</dd>
 	<dt>You know how much work this is going to take, right?</dt>
 	<dd><a href="https://freedeedpoll.org.uk/what_next" target="_blank">I'm acutely aware.</a></dd>
 	<dt>Does this mean you have to change all your ID and stuff?</dt>
@@ -50,6 +52,8 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dd>Probably. I'm generally OK with that, but if it really does look like I've forgotten to change it, <a href="mailto:namechange@skylarmacdonald.com">let me know</a>. If you can be bothered.</dd>
 	<dt>Wait, MacDhòmhnaill? Isn't that going to break a bunch of systems that aren't designed to handle names with non-ASCII characters in them?</dt>
 	<dd><a href="{% link falsehoods.md %}" target="_blank">Like you wouldn't believe.</a></dd>
+	<dt>What was your name before?</dt>
+	<dd>None of your business.</dd>
 	<dt>Well, I'm still going to call you...</dt>
 	<dd>That isn't a question, and <a href="https://www.youtube.com/watch?v=v1c2OfAzDTI" target="_blank">please don't</a>.</dd>
 	<dt>Yeah, but that's not your <em>real</em> name.</dt>
@@ -57,7 +61,7 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dt>It's going to be difficult to get used to calling you a new name.</dt>
 	<dd>I know; I've been using my former name for a lot longer than you've known me! If you slip up now and again, that's OK.</dd>
 	<dt>Does that mean you have a new signature?</dt>
-	<dd>Yes, but I'm not going to put it on the internet. You ought to have seen that coming, really. Imagine a squiggle that looks vaguely like my name.</dd>
+	<dd>Yes, but I'm not going to put it on the internet. (You ought to have seen that coming, really.)</dd>
 	<dt>You should buy a farm!</dt>
 	<dd>I've considered it. Farms are surprisingly pricey.</dd>
 	<dt>If you were going to do this, why didn't you choose <span class="label label-info">(funny name)</span>?</dt>
