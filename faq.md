@@ -33,7 +33,7 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dt>Did you actually change your legal name?</dt>
 	<dd>Yep!</dd>
 	<dt>How did you do it?</dt>
-	<dd>I used <a href="https://danq.me" target="_blank" title="Dan Q's website">Dan Q</a>'s <a href="https://freedeedpoll.org.uk" target="_blank">free UK deed poll generator</a>, filled in the details, printed it out and signed it. In the UK, that's <a href="https://www.gov.uk/change-name-deed-poll/make-an-adult-deed-poll" target="_blank">all you have to do</a>.</dd>
+	<dd>I used <a href="https://danq.me" target="_blank" title="Dan Q's website">Dan Q</a>'s <a href="https://freedeedpoll.org.uk" target="_blank">free UK deed poll generator</a>, filled in the details, printed it out and signed it. In the UK (<a href="https://www.nrscotland.gov.uk/registration/recording-change-of-forename-and-surname-in-scotland" target="_blank">except Scotland</a>), that's <a href="https://www.gov.uk/change-name-deed-poll/make-an-adult-deed-poll" target="_blank">all you have to do</a>.</dd>
 	<dt>Is it really free?</dt>
 	<dd>Yes!</dd>
 	<dt>Awesome! I'm going to go change my name to <a href="https://www.youtube.com/watch?v=QbpmgWJQScc" target="_blank">Princess Consuela Banana-hammock</a>!</dt>
