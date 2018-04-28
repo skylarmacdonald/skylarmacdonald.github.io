@@ -17,11 +17,15 @@
 		<link href="https://keybase.io/skylarmacdonald/key.asc" rel="pgpkey" type="text/plain" />
 		<link href="https://keybase.io/skylarmacdonald/key.asc" rel="publickey" type="text/plain" />
 
+		<style type="text/css">
+			body { background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/03.jpg') no-repeat center center fixed; }
+		</style>
+
 		{% include analytics.html %}
 	</head>
 	<body>
 		<div class="container">
-			<section class="hero-unit" itemscope itemtype="http://data-vocabulary.org/Person">
+			<main class="hero-unit" itemscope itemtype="http://data-vocabulary.org/Person">
 				<div id="circle" class="hidden-phone">&nbsp;</div>
 
 				<div id="words">
@@ -35,7 +39,26 @@
 						<li>I did indeed <a href="{% link faq.md %}">change my name</a></li>
 					</ul>
 				</div>
-			</div>
+			</main>
+
+			<section id="companies">
+				<h2>My work</h2>
+				<div id="logos">
+					<img src="img/london_live.svg" alt="London Live" />
+					<img src="img/tinykettle.svg" alt="Tiny Kettle" />
+				</div>
+				<a href="/cv" class="btn btn-default btn-large btn-block" id="cv_download">
+					<span class="icon-download"></span>
+					Download my full CV
+				</a>
+			</section>
+
+			<section id="contact">
+				<h2>Contact me</h2>
+				<a href="mailto:skylar@skylarmacdonald.com">skylar@skylarmacdonald.com</a>
+				<a href="tel:+443703140156">0370 314 0156</a>
+			</section>
+
 			<span id="cookies">This site uses cookies.</span>
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
