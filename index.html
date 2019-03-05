@@ -30,9 +30,10 @@
 
 				<div id="words">
 					<h1>Hi, I'm <span itemprop="name">Skylar MacDonald</span>.</h1>
-					<p class="lead">I'm from <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">London</span>, <span itemprop="country-name">UK</span></span> and I do things in telly and radio. I make shows at <a href="https://tinykettle.com" target="_blank" data-img="tinykettle">Tiny Kettle</a> (like <a href="http://tellyblob.com" target="_blank" data-img="tellyblob">Tellyblob</a> and <a href="http://gkly.co" target="_blank" data-img="gkly">The Geekly Chronicles</a>), and occasionally I <a href="https://twitter.com/helloiamskylar" target="_blank" data-img="twitter">tweet things</a>. I do science for <a href="https://lasershark.uk" target="_blank" title="Laser Shark" data-img="lasershark">some internet companies</a>, and I previously did computers for <a href="http://bloodhoundssc.com" target="_blank" title="Bloodhound SSC" data-img="bloodhound">a very, very fast car</a>.</p>
+					<p class="lead">I'm from <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">London</span>, <span itemprop="country-name">UK</span></span> and I tell silly jokes and make PowerPoint stories.</p>
+					<p>As well as that, I <a href="https://www.londonambulance.nhs.uk/working-for-us/career-opportunities/control-room-staff/" target="_blank" title="London Ambulance Service" data-img="las">answer 999 calls</a>, I do science for <a href="https://dangerscience.com" target="_blank" title="Danger Science Group" data-img="dsg">some internet companies</a>, and I previously did computers for <a href="http://bloodhoundssc.com" target="_blank" title="Bloodhound SSC" data-img="bloodhound">a very, very fast car</a>.</p>
 					<ul class="one-line">
-						<li>I'm also findable on <a href="https://github.com/skylarmacdonald" target="_blank">GitHub</a> and <a href="https://uk.linkedin.com/in/skylarmacdonald" target="_blank">LinkedIn</a></li>
+						<li>I'm also findable on <a href="https://twitter.com/helloiamskylar" target="_blank">Twitter</a>, <a href="https://github.com/skylarmacdonald" target="_blank">GitHub</a>, and <a href="https://uk.linkedin.com/in/skylarmacdonald" target="_blank">LinkedIn</a></li>
 						<li>You can send me money via <a href="https://monzo.me/skylarmacdonald" target="_blank">Monzo</a>, <a href="https://paypal.me/skylarmacdonald" target="_blank">PayPal</a>, <a href="https://cash.me/$skylarmacdonald" target="_blank">Square Cash</a>, or <a href="https://bunq.me/skylar" target="_blank">bunq</a></li>
 						<li>From time to time, I <a href="{% link talks.html %}">give talks about stuff</a></li>
 						<li>Sometimes I make <a href="{% link bots.html %}">bots</a> or <a href="{% link webshits.html %}">other terrible ideas</a></li>
@@ -40,24 +41,6 @@
 					</ul>
 				</div>
 			</main>
-
-			<section id="companies">
-				<h2>My work</h2>
-				<div id="logos">
-					<img src="img/london_live.svg" alt="London Live" />
-					<img src="img/tinykettle.svg" alt="Tiny Kettle" />
-				</div>
-				<a href="/cv" class="btn btn-default btn-large btn-block" id="cv_download">
-					<span class="icon-download"></span>
-					Download my full CV
-				</a>
-			</section>
-
-			<section id="contact">
-				<h2>Contact me</h2>
-				<a href="mailto:skylar@skylarmacdonald.com">skylar@skylarmacdonald.com</a>
-				<a href="tel:+443703140156">0370 314 0156</a>
-			</section>
 
 			<span id="cookies">This site uses cookies.</span>
 
@@ -68,7 +51,7 @@
 						$('#circle').addClass($(this).data('img'));
 				});
 				$('#words a').mouseout(function(e) {
-					$('#circle').removeClass('lasershark organicdiode gkly twitter tinykettle tellyblob bloodhound');
+					$('#circle').removeClass('dsg las bloodhound');
 				});
 			</script>
 		</div>
