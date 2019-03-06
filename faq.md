@@ -19,7 +19,7 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dt>Why did you choose &ldquo;Skylar MacDonald&rdquo;?</dt>
 	<dd>The long answer is beyond the scope of this FAQ. The short answer is: because I like it.</dd>
 	<dt>Oh, MacDonald, did you choose that because of&mdash;</dt>
-	<dd>No.</dd> <!-- Alyssa, the fact that we went to see Amy MacDonald four days before I told you I was changing my name is irrelevant. -->
+	<dd>No.</dd>
 	<dt>Oh, Skylar, did you choose that because of&mdash;</dt>
 	<dd>No.</dd>
 	<dt>But&mdash;</dt>
@@ -29,7 +29,7 @@ I have been asked all of these questions at least once. I'm sure I will update t
 	<dt>How do you pronounce &lsquo;MacDhòmhnaill&rsquo;?</dt>
 	<dd>It's roughly the same as &ldquo;MacDonald&rdquo;. It's going to be easier for everyone if you just say &ldquo;MacDonald&rdquo;.</dd>
 	<dt>Does this mean you're&hellip;?</dt>
-	<dd>¯\_(ツ)_/¯</dd> <!-- Shut up, Puck. <3 -->
+	<dd>Well, that depends.</dd>
 	<dt>Did you actually change your legal name?</dt>
 	<dd>Yep!</dd>
 	<dt>How did you do it?</dt>
