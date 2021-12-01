@@ -1,0 +1,21 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+h3.media-heading a { color: #2d2d2d; }
+img { width: 100%; }
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	line-height: 60px;
+}
+footer div.container {
+	border-top: 1px solid #eee;
+}

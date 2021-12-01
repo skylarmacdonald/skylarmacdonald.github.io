@@ -1,0 +1,45 @@
+---
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Talks by {{ site.author }}</title>
+		<meta name="description" content="From time to time, I give talks about stuff. You can look at the slides and notes here." />
+		<meta name="author" content="{{ site.author }}" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/spacelab/bootstrap.min.css" />
+		<link rel="stylesheet" href="{% link /css/talks.css %}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		{% include analytics.html %}
+	</head>
+	<body>
+		<div class="container">
+			<header class="page-header">
+				<h1>Talks <small>by {{ site.author }}</small></h1>
+			</header>
+			<p class="lead">From time to time, I give talks about stuff.</p>
+			<p style="margin-bottom: 40px">If you found one of those talks interesting, you can see the slides and notes here. I've also probably uploaded the slides to <a href="https://speakerdeck.com/skylarmacdonald" target="_blank">my Speaker Deck page</a>.</p>
+
+			{% for talk in site.talks %}
+				<div class="media row">
+					<div class="media-left col-md-3">
+						<a href="{{ talk.url }}">
+							<img class="media-object" src="/img/talks/{{ talk.image }}" alt="{{ talk.title }}" />
+						</a>
+					</div>
+					<div class="media-body">
+						<h3 class="media-heading"><a href="{{ talk.url }}">{{ talk.title }}</a>{% if talk.event %} <small>for {{ talk.event }}</small>{% endif %}</h3>
+						<p>{{ talk.description | markdownify }}</p>
+						<p><a href="{{ talk.url }}" class="btn btn-sm btn-default">View talk &rarr;</a></p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<footer>
+			<div class="container">
+				&copy; {{ site.author }}
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+title: Skylar MacDonald
+author: Skylar MacDonald
+email: skylar@skylarmacdonald.com
+description: I'm from London, UK and I do things in telly and radio. I also make bots and build websites sometimes.
+baseurl: ""
+url: ""
+
+permalink: pretty
+collections:
+  talks:
+    output: true
+sass:
+    sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - LICENSE
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: Skylar MacDonald
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talks
