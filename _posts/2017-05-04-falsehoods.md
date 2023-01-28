@@ -1,13 +1,11 @@
 ---
-layout: longform
+layout: post
 title: Falsehoods Programmers Believe About Me
 description: Changing your name is surprisingly easy. Updating it on every system is a real pain.
 ---
-# {{ page.title }}
-<div class="byline">by <a href="{% link index.html %}">{{ page.author }}</a></div>
 I'm sure we're all aware of the excellent article [Falsehoods Programmers Believe About Names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) by Patrick McKenzie. It's a wonderful list of everything that programmers assume when designing systems that handle names.
 
-I [changed my name recently]({% link faq.md %}), so I've had the fun of updating my name on every system that knows who I am. To add additional complications to the process, my new last name is Scottish Gaelic (MacDhòmhnaill), and I go by both Skylar and Skye. Here is what I specifically have had to deal with so far.
+I [changed my name recently]({% link _posts/2017-05-04-faq.md %}), so I've had the fun of updating my name on every system that knows who I am. To add additional complications to the process, my new last name is Scottish Gaelic (MacDhòmhnaill), and I go by both Skylar and Skye. Here is what I specifically have had to deal with so far.
 
 I wonder how many of these points will be the same as points from Patrick's article, which was published seven years ago?
 

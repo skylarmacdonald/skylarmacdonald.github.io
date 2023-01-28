@@ -1,0 +1,12 @@
+#talks_link { font-size: 0.8em; }
+.talk {
+  display: flex;
+  .talk_image {
+    width: 40%;
+    min-width: 40%;
+    margin-right: .5rem;
+  }
+  .talk_info {
+    h3 { margin-top: 0; }
+  }
+}

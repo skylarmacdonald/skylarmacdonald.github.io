@@ -1,33 +1,17 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>{{ page.title }}, a talk by {{ page.author }}</title>
-		<meta name="description" content="{{ page.description }}" />
-		<meta name="author" content="{{ page.author }}" />
-		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/spacelab/bootstrap.min.css" />
-		<link rel="stylesheet" href="{% link /css/talks.css %}" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+---
+layout: default
+---
 
-		{% include analytics.html %}
-	</head>
-	<body>
-		<div class="container">
-			<header class="page-header">
-				<nav>
-					<ul class="nav nav-pills pull-right">
-						<li role="presentation"><a href="{% link talks.html %}">Back to talks</a></li>
-					</ul>
-				</nav>
-				<h1>Talks <small>by {{ site.author }}</small></h1>
-			</header>
-			<h1>{{ page.title }}{% if page.event %} <small>for {{ page.event }}</small>{% endif %}</h1>
-			{{ content }}
-		</div>
-		<footer>
-			<div class="container">
-				&copy; {{ site.author }}
-			</div>
-		</footer>
-	</body>
-</html>
+<div class="post">
+  <div class="post-info">
+    {% if page.event %}
+      For {{ page.event }}
+    {% endif %}
+  </div>
+  <h1 class="post-title">
+    <div>{{ page.title }}</div>
+  </h1>
+  {{ content }}
+</div>
+
+<p><a href="{% link talks.html %}">Back to talks</a></p>
