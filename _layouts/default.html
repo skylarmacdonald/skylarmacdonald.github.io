@@ -9,12 +9,22 @@
 				<a href="{{ site.baseurl }}/">
 					<h2 class="nav-title">{{ site.title }}</h2>
 				</a>
+				<small>For Your Information</small>
 				{% include social.html %}
 			</div>
 		</nav>
 
 		<main>
+			{% if page.layout == "home" %}
+				<div id="site_description">{{ site.description }}</div>
+			{% endif %}
 			{{ content }}
+			{% if page.layout == "post" %}
+				<div id="site_description">
+					<h3>About {{ site.author.name }}</h3>
+					{{ site.description }}
+				</div>
+			{% endif %}
 		</main>
 
 		<footer>
