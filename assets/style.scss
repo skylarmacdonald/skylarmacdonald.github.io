@@ -3,6 +3,17 @@
 
 @import 'talks';
 
+#site_photo {
+  height: 24px;
+  width: 24px;
+  display: inline;
+  margin: 0;
+  margin-right: .25em;
+  vertical-align: text-bottom;
+  border-radius: 24px;
+  border: 0;
+}
+
 #site_description {
   font-size: 0.9em;
   line-height: 1.3em;
