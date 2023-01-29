@@ -19,6 +19,10 @@ social:
 remote_theme: inelaah/rain
 plugins:
   - jekyll-feed
+# Related posts settings
+related_posts_section:
+  max_count: 5
+  min_common_tags: 1
 sass:
   sass_dir: _sass
   style: compressed

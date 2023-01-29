@@ -2,6 +2,7 @@
 layout: post
 title: Falsehoods Programmers Believe About Me
 description: Changing your name is surprisingly easy. Updating it on every system is a real pain.
+tag: name change
 ---
 I'm sure we're all aware of the excellent article [Falsehoods Programmers Believe About Names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) by Patrick McKenzie. It's a wonderful list of everything that programmers assume when designing systems that handle names.
 
