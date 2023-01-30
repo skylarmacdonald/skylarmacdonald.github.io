@@ -15,6 +15,11 @@ layout: default
 
 	<div class="e-content">{{ content }}</div>
 
+	<a href="{{ page.url | prepend: site.baseurl }}" id="permalink" rel="canonical" class="u-url">
+		<i class="fa fa-link"></i>
+		Permalink
+	</a>
+
 </article>
 
 <div class="relatedPosts">
