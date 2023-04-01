@@ -31,3 +31,9 @@
     letter-spacing: .2em;
   }
 }
+
+.footnotes {
+  font-size: 0.8em;
+  border-top: 1px solid #eee;
+  li p { margin: 0 0 .5rem }
+}
