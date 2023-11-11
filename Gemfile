@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'webrick'
 group :jekyll_plugins do
-  gem 'github-pages', '~> 227'
+  gem 'github-pages', '~> 228'
   gem 'jekyll-feed', '~> 0.12'
 end
 
