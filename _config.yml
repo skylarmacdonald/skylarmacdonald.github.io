@@ -12,8 +12,9 @@ author:
   url: https://skye.fyi
 
 social:
-  twitter: https://twitter.com/LASSkylar
   mastodon: https://tilde.zone/@skylar
+  bluesky: https://bsky.app/profile/skye.fyi
+  twitter: https://twitter.com/LASSkylar
 
 # Build settings
 remote_theme: inelaah/rain
