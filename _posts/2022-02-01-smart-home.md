@@ -1,7 +1,9 @@
 ---
 title: Smart home stuff still sucks
 layout: post
-tag: smart-home
+tags:
+  - smart-home
+  - tech-moan
 ---
 
 My other half loves his new [fart button](https://amzn.to/3gdre3V).
