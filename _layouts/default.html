@@ -15,7 +15,7 @@
 			</div>
 		</nav>
 
-		<main>
+		<main {% if page.collection != 'talks' %}itemscope itemtype="https://schema.org/Blog"{% endif %}>
 			{% if page.layout == "home" %}
 				<div id="site_description">{{ site.description }}</div>
 			{% endif %}

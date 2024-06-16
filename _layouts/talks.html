@@ -2,16 +2,19 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="post-info">
-    {% if page.event %}
-      For {{ page.event }}
-    {% endif %}
-  </div>
-  <h1 class="post-title">
-    <div>{{ page.title }}</div>
-  </h1>
-  {{ content }}
-</div>
+<article class="post">
+	<a class="hidden" href="/assets/talks/{{ page.image }}" itemprop="https://schema.org/image"></a>
+	<div class="post-info">
+		{% if page.event %}
+			For {{ page.event }}
+		{% endif %}
+	</div>
+	<h1 class="post-title" itemprop="https://schema.org/headline">
+		<div>{{ page.title }}</div>
+	</h1>
+	<div itemprop="https://schema.org/articleBody">
+		{{ content }}
+	</div>
+</article>
 
 <p><a href="{% link talks.html %}">Back to talks</a></p>
