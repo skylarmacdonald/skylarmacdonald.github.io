@@ -6,7 +6,8 @@ title: Talks
 <h1>Talks</h1>
 <p>From time to time, I give talks about stuff. If you found one of those talks interesting, you can see the slides and notes here. I've also probably uploaded the slides to <a href="https://speakerdeck.com/skylarmacdonald" target="_blank">my Speaker Deck page</a>.</p>
 
-{% for talk in site.talks %}
+{% assign talks = site.talks | sort: 'year' | reverse %}
+{% for talk in talks %}
 	<div class="talk">
 		<a href="{{ talk.url }}" class="talk_image">
 			<img class="media-object" src="/assets/talks/{{ talk.image }}" alt="{{ talk.title }}" />
