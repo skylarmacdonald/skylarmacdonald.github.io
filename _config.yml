@@ -44,4 +44,5 @@ defaults:
       type: talks
     values:
       layout: talks
+      author: Skylar MacDonald
 
