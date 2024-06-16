@@ -38,13 +38,18 @@
 	{% endif %}
 	{% if page.collection == 'talks' %}
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
+		<meta property="og:image" name="twitter:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
+		<meta property="twitter:card" name="twitter:card" content="summary_large_image">
 	{% elsif page.collection == 'posts' && page.image %}
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
+		<meta property="og:image" name="twitter:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
+		<meta property="twitter:card" name="twitter:card" content="summary_large_image">
+	{% else %}
+		<meta property="twitter:card" name="twitter:card" content="summary">
 	{% endif %}
 	<meta property="og:type" name="og:type" content="article">
 	<meta property="og:locale" name="og:locale" content="en_GB">
 	<meta property="og:site_name" name="og:site_name" content="{{ site.title }}">
-	<meta property="twitter:card" name="twitter:card" content="summary">
 
 	<!-- RSS -->
 	{% feed_meta %}
