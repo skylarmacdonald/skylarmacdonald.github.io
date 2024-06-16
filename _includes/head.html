@@ -31,6 +31,7 @@
 
 	<!-- Social meta -->
 	<meta property="fediverse:creator" content="@skylar@tilde.zone">
+	<meta name="twitter:creator" content="@LASSkylar">
 	{% if page.title %}
 		<meta property="og:title" name="og:title" content="{{ page.title }}">
 	{% else %}
@@ -38,11 +39,11 @@
 	{% endif %}
 	{% if page.collection == 'talks' %}
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
-		<meta property="og:image" name="twitter:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
+		<meta property="twitter:image" name="twitter:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
 		<meta property="twitter:card" name="twitter:card" content="summary_large_image">
 	{% elsif page.collection == 'posts' && page.image %}
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
-		<meta property="og:image" name="twitter:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
+		<meta property="twitter:image" name="twitter:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
 		<meta property="twitter:card" name="twitter:card" content="summary_large_image">
 	{% else %}
 		<meta property="twitter:card" name="twitter:card" content="summary">
