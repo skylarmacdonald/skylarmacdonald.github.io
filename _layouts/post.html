@@ -3,7 +3,9 @@ layout: default
 ---
 
 <article class="post h-entry" itemprop="blogPost">
-
+	{% if page.image %}
+		<a class="hidden" href="/assets/blog/{{ page.image }}" itemprop="https://schema.org/image"></a>
+	{% endif %}
 	<div class="post-info">
 		{% if page.date %}
 			<time datetime="{{ page.date }}" class="dt-published" itemprop="https://schema.org/datePublished">{{ page.date | date: "%B %d, %Y" }}</time>

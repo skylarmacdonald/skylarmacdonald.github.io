@@ -38,6 +38,8 @@
 	{% endif %}
 	{% if page.collection == 'talks' %}
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
+	{% elsif page.collection == 'posts' && page.image %}
+		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
 	{% endif %}
 	<meta property="og:type" name="og:type" content="article">
 	<meta property="og:locale" name="og:locale" content="en_GB">
