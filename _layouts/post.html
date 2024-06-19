@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<article class="post h-entry" itemprop="blogPost">
+<article class="post h-entry" itemprop="https://schema.org/BlogPosting">
 	{% if page.image %}
-		<a class="hidden" href="/assets/blog/{{ page.image }}" itemprop="https://schema.org/image"></a>
+		<a class="hidden" href="/assets/blog/{{ page.image }}" itemprop="image"></a>
 	{% endif %}
 	<div class="post-info">
 		{% if page.date %}
-			<time datetime="{{ page.date }}" class="dt-published" itemprop="https://schema.org/datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+			<time datetime="{{ page.date }}" class="dt-published" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
 		{% endif %}
 	</div>
-	<h1 class="post-title" itemprop="https://schema.org/headline">
+	<h1 class="post-title" itemprop="headline name">
 		<div class="p-name">{{ page.title }}</div>
 	</h1>
 
-	<div class="e-content" itemprop="https://schema.org/articleBody">{{ content }}</div>
+	<div class="e-content" itemprop="articleBody">{{ content }}</div>
 
-	<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" id="permalink" rel="canonical" class="u-url">
+	<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" id="permalink" rel="canonical" class="u-url" itemprop="url">
 		<i class="fa fa-link"></i>
 		Permalink
 	</a>
