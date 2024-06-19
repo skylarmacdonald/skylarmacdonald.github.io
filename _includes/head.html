@@ -41,10 +41,13 @@
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
 		<meta property="twitter:image" name="twitter:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
 		<meta property="twitter:card" name="twitter:card" content="summary_large_image">
-	{% elsif page.collection == 'posts' && page.image %}
-		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
-		<meta property="twitter:image" name="twitter:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
-		<meta property="twitter:card" name="twitter:card" content="summary_large_image">
+	{% elsif page.collection == 'posts' %}
+		<link rel="author" href="{{ site.url }}">
+		{% if page.image %}
+			<meta property="og:image" name="og:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
+			<meta property="twitter:image" name="twitter:image" content="{{ site.url }}/assets/blog/{{ page.image }}">
+			<meta property="twitter:card" name="twitter:card" content="summary_large_image">
+		{% endif %}
 	{% else %}
 		<meta property="twitter:card" name="twitter:card" content="summary">
 	{% endif %}
