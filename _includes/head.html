@@ -3,6 +3,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{% if page.layout == "home" %}
 		<meta name="description" content="{{ site.description }}">
+	{% elsif page.description %}
+		<meta name="description" content="{{ page.description }}">
 	{% endif %}
 
 	<title>
@@ -36,6 +38,11 @@
 		<meta property="og:title" name="og:title" content="{{ page.title }}">
 	{% else %}
 		<meta property="og:title" name="og:title" content="{{ site.title }}">
+	{% endif %}
+	{% if page.description %}
+		<meta property="og:description" name="og:description" content="{{ page.description }}">
+	{% else %}
+		<meta property="og:description" name="og:description" content="{{ site.description }}">
 	{% endif %}
 	{% if page.collection == 'talks' %}
 		<meta property="og:image" name="og:image" content="{{ site.url }}/assets/talks/{{ page.image }}">
