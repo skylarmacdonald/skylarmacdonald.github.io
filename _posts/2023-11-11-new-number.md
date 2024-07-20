@@ -2,6 +2,7 @@
 title: "You STILL can't get a new number and keep your old one?!"
 layout: post
 tag: tech-moan
+toot: https://tilde.zone/@skylar/111392375775532346
 ---
 
 I've had my mobile phone number for 15 years.
