@@ -4,6 +4,7 @@ title: CrowdStricken
 description: The CrowdStrike failure says a lot more about everyone's business continuity planning than it does about poorly designed endpoint management software
 tag: tech-moan
 image: crowdstricken.jpg
+toot: https://tilde.zone/@skylar/112819299993818487
 ---
 
 In case you weren't anywhere near a computer yesterday, [endpoint management software CrowdStrike botched an update](https://www.theregister.com/2024/07/19/crowdstrike_falcon_sensor_bsod_incident/?td=rt-9cp) and killed millions of Windows machines --- some reports suggesting up to a billion --- around the world.

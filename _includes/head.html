@@ -61,6 +61,9 @@
 	<meta property="og:type" name="og:type" content="article">
 	<meta property="og:locale" name="og:locale" content="en_GB">
 	<meta property="og:site_name" name="og:site_name" content="{{ site.title }}">
+	{% if page.toot %}
+		<link rel="alternate" type="application/activity+json" href="{{ page.toot }}">
+	{% endif %}
 
 	<!-- RSS -->
 	{% feed_meta %}
