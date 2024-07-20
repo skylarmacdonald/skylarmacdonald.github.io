@@ -7,7 +7,7 @@ image: crowdstricken.jpg
 toot: https://tilde.zone/@skylar/112819299993818487
 ---
 
-In case you weren't anywhere near a computer yesterday, [endpoint management software CrowdStrike botched an update](https://www.theregister.com/2024/07/19/crowdstrike_falcon_sensor_bsod_incident/?td=rt-9cp) and killed millions of Windows machines --- some reports suggesting up to a billion --- around the world.
+In case you weren't anywhere near a computer yesterday, [endpoint management software CrowdStrike botched an update](https://www.theregister.com/2024/07/19/crowdstrike_falcon_sensor_bsod_incident/?td=rt-9cp) and killed millions of Windows machines --- ~~some reports suggesting up to a billion~~ [EDIT: now estimated to be 8.5 million] --- around the world.
 
 Oops.
 
@@ -41,6 +41,8 @@ This wouldn't mean there was no disruption, of course. The airlines' BC plans in
 CrowdStrike are not blameless. There are lots of lessons to be learned about how this got to the point where an engineer could push an update out to every user all in one go without QA having picked this up. But it's not the fault of the individual engineer, or indeed the CEO. It's a systematic failure that needs to be investigated. But also, any organisation that found themselves unsure of what to do in this sort of scenario needs to shoulder some of the blame too here. Your BC plan should (1) exist, (2) be well-rehearsed, and (3) be easy to enact when --- not _if_ --- something like this happens again.
 
 If we can [run the ambulance service entirely on pen and paper](https://www.youtube.com/watch?v=r6GjmRSQrS4), you can run your organisation like that too. Figure out how, write it down in a plan, and instantly become a hero next time this happens.
+
+_**EDIT (20 Jul 2024):** Article updated with confirmed number of affected systems._
 
 
 <small>Photo: [Duncan Cumming](https://flickr.com/photos/duncan/), used under CC-BY-NC 2.0</small>
