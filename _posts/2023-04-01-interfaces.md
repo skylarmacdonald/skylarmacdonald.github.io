@@ -2,6 +2,7 @@
 title: 'Smart home user interfaces'
 layout: post
 tag: smart-home
+description: Smart homes suck if you can't control your lights with the damn light switch
 ---
 
 [Terry has written a blog post](https://shkspr.mobi/blog/2023/03/zero-interfaces/) that's given me an idea for one of my own. This is also sort of part 2 of my [moaning about smart home stuff]({% link _posts/2022-02-01-smart-home.md %}) that I started on this blog last year.

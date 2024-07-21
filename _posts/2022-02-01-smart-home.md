@@ -1,6 +1,7 @@
 ---
 title: Smart home stuff still sucks
 layout: post
+description: Given the number of smart home hubs I own, you'd think buying hubs was my hobby
 tags:
   - smart-home
   - tech-moan

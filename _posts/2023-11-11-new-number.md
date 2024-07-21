@@ -2,6 +2,7 @@
 title: "You STILL can't get a new number and keep your old one?!"
 layout: post
 tag: tech-moan
+description: We are altogether too reliant on phone numbers not changing, which sucks when you want to change them
 toot: https://tilde.zone/@skylar/111392375775532346
 ---
 
