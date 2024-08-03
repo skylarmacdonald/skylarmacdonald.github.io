@@ -19,7 +19,7 @@ I also, mostly accidentally, had managed to coincidentally purchase a 16-port Et
 
 _[lightbulb moment]_
 
-It turns out, they very much [just sell adapters](https://amzn.to/3KLW7eX) that turn 802.3af PoE into plain Ethernet plus a micro-USB. There is even a [variant with a USB port](https://amzn.to/3xhXuyW) if the thing you're plugging in already has its own connector rather than just a socket (such as the old IKEA TRÅDFRI smart hub). Six of those later, I was good to go![^5]
+It turns out, they very much [just sell adapters](https://amzn.to/3KLW7eX) that turn 802.3af PoE into plain Ethernet plus a micro-USB. There is even a [variant with a USB port](https://amzn.to/3xhXuyW) if the thing you're plugging in already has its own connector rather than just a socket (such as the old IKEA TRÅDFRI smart hub). Six of those later, I was good to go!
 
 Installing them was simple. They just connect inline and plug straight into the Ethernet and micro-USB port on the hub in question. I then had to pop onto the web interface for the switch and set up PoE on the ports, which will entirely depend on what you're plugging them into, but was simple enough for me. Each of them is (at time of writing) pulling about 25–35 mA out of the switch, and the switch as a whole reckons it's spending about 7.6 Watts on this stuff.
 
