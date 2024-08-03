@@ -4,6 +4,8 @@ layout: post
 tag: smart-home
 image: poe.jpg
 image_alt: A pair of Netgear Ethernet switches in a server rack.
+description: Turns out there's a pretty easy solution to having to power a million different hubs that all have USB connections
+toot: https://tilde.zone/@skylar/112899243103771060
 ---
 
 We've [talked]({% link _posts/2022-02-01-smart-home.md %}) [before]({% link _posts/2023-04-01-interfaces.md %}) about how annoying I find smart home stuff, and one of the key things I've moaned about previously is the fact I need **eight hubs** to make all of the stuff in my house talk to each other.
