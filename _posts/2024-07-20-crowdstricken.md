@@ -4,6 +4,7 @@ title: CrowdStricken
 description: The CrowdStrike failure says a lot more about everyone's business continuity planning than it does about poorly designed endpoint management software
 tag: tech-moan
 image: crowdstricken.jpg
+image_alt: A Blue Screen of Death on an advertising screen on the London Underground.
 toot: https://tilde.zone/@skylar/112819299993818487
 ---
 
