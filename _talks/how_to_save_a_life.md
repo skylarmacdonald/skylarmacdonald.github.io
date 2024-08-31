@@ -11,4 +11,4 @@ This talk, presented by the CAD & Technical Lead at the London Ambulance Service
 
 ### Video
 
-This talk was recorded and will be published on the [event website](https://emfcamp.org) when it is ready.
+<iframe class="video" src="https://media.ccc.de/v/emf2024-405-how-to-save-a-life/oembed" frameborder="0" allowfullscreen></iframe>
