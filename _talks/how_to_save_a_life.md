@@ -16,5 +16,5 @@ This talk, presented by the CAD & Technical Lead at the London Ambulance Service
 ## Links
 
 * [NHS England Ambulance Response Programme](https://www.england.nhs.uk/urgent-emergency-care/improving-ambulance-services/arp/) --- more information about the call priorities I talked about
-* [BHF Lifesaving Beats](https://lifesavingbeats.com)
+* [BHF Lifesaving Beats](https://open.spotify.com/playlist/2M5k6VETmiDgGfUXTcjP0O)
 * [Defib Finder](https://www.defibfinder.uk) --- _please don't use this in an emergency, call 999 instead!_
