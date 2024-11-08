@@ -16,6 +16,9 @@ social:
   bluesky: https://bsky.app/profile/skye.fyi
   twitter: https://twitter.com/LASSkylar
 
+webmentions:
+  username: skye.fyi
+
 # Build settings
 remote_theme: inelaah/rain
 plugins:

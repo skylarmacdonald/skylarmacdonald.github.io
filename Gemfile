@@ -4,6 +4,7 @@ gem 'webrick'
 group :jekyll_plugins do
   gem 'github-pages', '~> 228'
   gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-webmention_io'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
