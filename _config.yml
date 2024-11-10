@@ -23,6 +23,7 @@ webmentions:
 remote_theme: inelaah/rain
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 # Related posts settings
 related_posts_section:
   max_count: 5

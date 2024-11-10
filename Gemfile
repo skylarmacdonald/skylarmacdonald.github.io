@@ -5,6 +5,7 @@ gem 'jekyll', '~> 4.3.4'
 group :jekyll_plugins do
   # gem 'github-pages', '~> 228'
   gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-paginate'
   gem 'jekyll-webmention_io'
 end
 
