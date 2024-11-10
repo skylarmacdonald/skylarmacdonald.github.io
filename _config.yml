@@ -4,6 +4,7 @@ email: contact@skylar.tel
 description: Reluctant technologist. CAD & Technical Lead/nerd at London Ambulance Service. Tech stuff, NHS/999 stuff, occasional Excel witchcraft. Views, regrettably, my own.
 baseurl: ""
 url: "https://skye.fyi"
+encoding: utf-8
 
 # Author
 author:
