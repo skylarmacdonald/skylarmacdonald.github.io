@@ -5,7 +5,7 @@ tags:
   - streaming
 image: buying_music.png
 image_alt: Screenshot of the Apple Music app open to a Smart Playlist entitled 'To buy', the cover art for which is the title on a background featuring a brown-coloured vinyl record.
-description: I'm trying to buy the top songs in my streaming library, because it's the right thing to do
+description: I'm trying to buy the top songs in my streaming library, because it's probably the right thing to do
 toot: # to follow
 preamble: This post is long and a bit heavy on the screenshots/embeds. Sorry.
 ---
