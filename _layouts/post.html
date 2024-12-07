@@ -15,6 +15,7 @@ layout: default
 		<div class="p-name">{{ page.title }}</div>
 	</h1>
 
+	<p class="preamble">{{ page.preamble }}</p>
 	<div class="e-content" itemprop="articleBody">{{ content }}</div>
 
 	<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" id="permalink" rel="canonical" class="u-url" itemprop="url">
