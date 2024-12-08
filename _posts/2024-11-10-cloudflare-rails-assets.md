@@ -61,4 +61,4 @@ So, this probably doesn't win you anything if we're being realistic. But it's an
 
 
 [^1]: This is definitely true with Postgres. I haven't tried it with SQLite or anything like that.
-[^2]: This doesn't currently work out of the box with Rails >= 7.2, because of a change in how you have to register ActiveRecord adapters; there are open PRs that fix this, so you could fiddle your Gemfile to point to those instead.
+[^2]: ~~This doesn't currently work out of the box with Rails >= 7.2, because of a change in how you have to register ActiveRecord adapters; there are open PRs that fix this, so you could fiddle your Gemfile to point to those instead.~~ EDIT: The PRs in question have been merged! This should now work out of the box.
