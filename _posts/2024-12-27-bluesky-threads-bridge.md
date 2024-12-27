@@ -8,7 +8,7 @@ tags:
   - social-media
 image: bluesky_threads.png
 image_alt: The Bluesky logo and Threads swirl design, cut together.
-description: I figured out how to bridge my Bluesky account into Threads. It went "fine".
+description: I figured out how to bridge my Bluesky account into Threads. It went “fine”.
 ---
 
 I don't think it's a secret that [I like decentralised/federated social media](https://tilde.zone/@skylar), but also that [I can't be bothered with being on more than one network](https://bsky.app/profile/also.skye.fyi/post/3lbey7glwms2z), and so I'm a massive fan of [Bridgy Fed](https://fed.brid.gy) --- a tool that allows you to effectively 'bridge' an account from the fediverse to Bluesky or vice versa. The two networks don't talk to each other, but this tool allows you to effectively bridge that gap.[^1]
