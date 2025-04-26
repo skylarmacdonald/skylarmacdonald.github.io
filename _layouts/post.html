@@ -4,7 +4,7 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 	{% if page.image %}
-		<a class="hidden u-photo" href="/assets/blog/{{ page.image }}" alt="{{ page.image_alt }}" itemprop="image"></a>
+		<img class="hidden u-photo" src="/assets/blog/{{ page.image }}" alt="{{ page.image_alt }}" itemprop="image">
 	{% endif %}
 	<div class="post-info">
 		<a rel="author" class="hidden p-author h-card" href="/">{{ site.title }}</a>
