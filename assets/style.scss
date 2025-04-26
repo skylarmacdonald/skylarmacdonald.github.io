@@ -54,3 +54,12 @@ hr {
   font-style: italic;
   color: #777;
 }
+
+table {
+  border-collapse: collapse;
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0 .5rem;
+  }
+  .post & { margin-bottom: 1rem }
+}
