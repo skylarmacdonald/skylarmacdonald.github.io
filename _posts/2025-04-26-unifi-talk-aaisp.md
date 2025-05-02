@@ -4,6 +4,7 @@ layout: post
 tags:
   - til
   - tech
+  - unifi-talk
 image: unifi_talk_phone.png
 image_alt: UniFi Talk G3 Touch Enterprise telephone.
 description: It went OK, but I learned some things I thought I'd better write down for next time
