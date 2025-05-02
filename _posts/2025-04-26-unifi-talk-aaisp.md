@@ -38,7 +38,7 @@ That is everything you need to do on A&A to make it work.
 
 ## Setup in UniFi Talk
 
-Create a new third-party SIP trunk in the [Talk system settings page](https://unifi.ui.com/talk/settings/system) on your UniFi console. Name the provider something useful like "AAISP" --- it got weird about me putting the ampersand in, but your mileage may vary.
+Create a new third-party SIP trunk in the [Talk system settings page](https://unifi/talk/settings/system) on your UniFi console. Name the provider something useful like "AAISP" --- it got weird about me putting the ampersand in, but your mileage may vary.
 
 Add the following custom fields, and set them as follows:
 
@@ -76,7 +76,7 @@ Cross your fingers and click **Apply Changes**.
 
 ## It doesn't work!!
 
-Go back to the [Talk system settings page](https://unifi.ui.com/talk/settings/system). Change the **Audio Codec** from PCMU (which is the codec the American and Japanese phone networks use) to PCMA (which is used by the rest of the world, and crucially, the only one accepted by A&A).
+Go back to the [Talk system settings page](https://unifi/talk/settings/system). Change the **Audio Codec** from PCMU (which is the codec the American and Japanese phone networks use) to PCMA (which is used by the rest of the world, and crucially, the only one accepted by A&A).
 
 This is **really** frustrating to debug in UniFi Talk, because it doesn't tell you that this is the problem unless you trawl through your support file. Lo and behold, I saw a `415 Unsupported Media Type` error in mine, and that's what motivated me to blog about this so that you too can fix this problem without having to turn on debug logging.
 
