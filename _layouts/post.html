@@ -24,6 +24,11 @@ layout: default
 		Permalink
 	</a>
 
+	<a href="https://shareopenly.org/share/?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}" id="share" rel="external share">
+		<i class="fa fa-share"></i>
+		Share
+	</a>
+
 </article>
 
 <div class="relatedPosts">
@@ -70,3 +75,16 @@ layout: default
 	{% endif %}
 
 </div>
+
+<script type="text/javascript">
+	document.getElementById('share').addEventListener('click', (e) => {
+		const obj = {
+			url: "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+			title: "{{ page.title }}"
+		};
+		if (navigator.canShare(obj)) {
+			e.preventDefault()
+			navigator.share(obj)
+		}
+	})
+</script>
