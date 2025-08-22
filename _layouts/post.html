@@ -24,7 +24,7 @@ layout: default
 		Permalink
 	</a>
 
-	<a href="https://shareopenly.org/share/?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}" id="share" rel="external share">
+	<a href="https://shareopenly.org/share/?url={{ page.url | prepend: site.baseurl | prepend: site.url | cgi_escape }}&text={{ page.title | cgi_escape }}" id="share" rel="external share">
 		<i class="fa fa-share"></i>
 		Share
 	</a>
