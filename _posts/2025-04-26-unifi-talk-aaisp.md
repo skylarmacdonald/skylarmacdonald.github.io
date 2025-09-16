@@ -20,7 +20,18 @@ To get UniFi Talk to work, you need to either pay Ubiquiti £7.99 a month for a 
 
 I chose [Andrews & Arnold](https://aa.net.uk), because they're a friendly UK-based ISP that offers a VoIP service, and they'll happily let you use it for SIP trunking purposes. They also understand how to make EISEC work on a VoIP landline (which a lot of other services --- especially those not based in the UK --- don't bother to do properly), and let you ring out to the proper UK phone network --- so you can also ring [NHS 111](https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-use-111/) if you manage to injure yourself whilst [running PoE cabling through your ceiling]({% link _posts/2024-08-03-smart-home-poe.md %}). Just as a random example.
 
-I'm going to assume you already have an active UniFi Talk installation, because setting it up is relatively straightforward, but there is one caveat -- you need a UniFi phone to activate UniFi Talk. No exceptions. Even if you are going to exclusively use significantly cheaper third-party SIP devices, you must have one UniFi Talk phone to activate the service. However, you don't have to keep it after you've activated it, so you can borrow one from a friend or eBay it after you're up and running. You don't have to buy one of their numbers to make this work.
+I'm going to assume you already have an active UniFi Talk installation, because setting it up is relatively straightforward, ~~but there is one caveat -- you need a UniFi phone to activate UniFi Talk. No exceptions. Even if you are going to exclusively use significantly cheaper third-party SIP devices, you must have one UniFi Talk phone to activate the service. However, you don't have to keep it after you've activated it, so you can borrow one from a friend or eBay it after you're up and running.~~ You don't have to buy one of their numbers to make this work.
+
+**UPDATE!** You no longer need a UniFi Talk phone to activate the UniFi Talk application, as this kind person let me know on [Bluesky](https://bsky.app/profile/did:plc:uzrmhzkshioejpt2zbtnge2u/post/3lvmpsldmuk2v):
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:uzrmhzkshioejpt2zbtnge2u/app.bsky.feed.post/3lvmpsldmuk2v" data-bluesky-cid="bafyreifwh4nxsr6wy6af4qbpktkm3j2nsp73plmh2qgrjlevqdoqryvo5u" data-bluesky-embed-color-mode="system">
+  <p lang="en">@skye.fyi just followed your rather excellent article on Unifi Talk &amp; AA SIP. Just one thing, it appears you can activate talk without a physical phone. When the Talk setup runs just click the &#x27;Setup Devices&#x27; text 10 times and the Next button activates.</p>
+  &mdash; Matt (<a href="https://bsky.app/profile/did:plc:uzrmhzkshioejpt2zbtnge2u?ref_src=embed">@psybernoid.bsky.social</a>)
+  <a href="https://bsky.app/profile/did:plc:uzrmhzkshioejpt2zbtnge2u/post/3lvmpsldmuk2v?ref_src=embed">August 5, 2025 at 4:01 AM</a>
+</blockquote>
+<script async defer src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+So it turns out there is a way around it if you follow Matt's instructions above. (Thanks! Unfortunately my Bluesky account is [bridged](https://fed.brid.gy/), so I didn't see this for a while.)
 
 I'm also not going to talk you through buying VoIP service from A&A, because their website is very easy to use.
 
