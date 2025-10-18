@@ -35,7 +35,10 @@ sass:
 permalink: pretty
 permalink: /:year/:month/:title
 paginate: 5
-include: ['.well-known']
+include:
+  - .well-known
+  - _redirects
+  - _headers
 collections:
   talks:
     output: true
