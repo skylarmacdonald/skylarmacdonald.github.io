@@ -89,6 +89,9 @@ I mostly wrote this up so I can remember how to do it again if I ever need to. B
 Merry chruby-ing!
 
 
+<small>Image: Panic</small>
+
+
 [^1]: Although _he_ and I have vastly different recollections of London. Especially given that I actually live here!
 [^2]: You may not argue _with me_ about this, because I don't care.
 [^3]: [See the full source file here.](https://github.com/postmodern/chruby/blob/master/share/chruby/auto.sh)
