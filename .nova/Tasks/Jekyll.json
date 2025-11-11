@@ -1,0 +1,12 @@
+{
+  "extension" : {
+    "identifier" : "net.tapas-software.JekyllServe",
+    "name" : "Jekyll Serve"
+  },
+  "extensionTemplate" : "jekyllServe",
+  "extensionValues" : {
+    "jekyllserve.drafts" : true,
+    "jekyllserve.future" : true
+  },
+  "openLogOnRun" : "fail"
+}

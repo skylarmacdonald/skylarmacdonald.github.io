@@ -1,0 +1,10 @@
+{
+  "editor.default_syntax" : "liquid-html",
+  "github.repo" : "op66",
+  "readme.conf.seen" : true,
+  "workspace.color" : 12,
+  "workspace.name" : "skye.fyi",
+  "workspace.preview_root" : "_site",
+  "workspace.preview_type" : "custom",
+  "workspace.preview_url" : "http:\/\/localhost:4000"
+}
