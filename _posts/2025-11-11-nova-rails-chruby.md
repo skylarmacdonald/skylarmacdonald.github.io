@@ -22,7 +22,10 @@ Perhaps unfortunately for me given recent developments, I am a Rails programmer.
 
 Until, that is, you go to run the dev server, and it does this:
 
->```/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/lockfile_parser.rb:108:in `warn_for_outdated_bundler_version': You must use Bundler 2 or greater with this lockfile. (Bundler::LockfileError)```
+```
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/lockfile_parser.rb:108:in `warn_for_outdated_bundler_version':
+You must use Bundler 2 or greater with this lockfile. (Bundler::LockfileError)
+```
 
 Bother. It's using the built-in macOS Ruby there, isn't it?
 
