@@ -21,10 +21,10 @@ webmentions:
   username: skye.fyi
 
 # Build settings
-remote_theme: inelaah/rain
 plugins:
   - jekyll-feed
   - jekyll-paginate
+theme: rain
 # Related posts settings
 related_posts_section:
   max_count: 5

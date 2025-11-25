@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'webrick'
-# gem 'jekyll', '~> 4.3.4'
+gem 'jekyll', '~> 4.4'
+gem 'rain', git: 'https://github.com/skylarmacdonald/rain.git'
 group :jekyll_plugins do
-  gem 'github-pages', '~> 228'
-  gem 'jekyll-feed', '~> 0.12'
+  # gem 'github-pages', '~> 228'
+  gem 'jekyll-feed', '~> 0.10'
   gem 'jekyll-paginate'
   # gem 'jekyll-webmention_io'
 end
@@ -17,5 +18,3 @@ end
 gem 'wdm', '~> 0.1.1', platforms: :windows
 
 gem 'http_parser.rb', '~> 0.6.0', platforms: :jruby
-
-gem 'csv'
