@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'webrick'
 gem 'jekyll', '~> 4.4'
-gem 'rain', git: 'https://github.com/skylarmacdonald/rain.git'
+gem 'rain', github: 'skylarmacdonald/rain'
 group :jekyll_plugins do
   # gem 'github-pages', '~> 228'
   gem 'jekyll-feed', '~> 0.10'
