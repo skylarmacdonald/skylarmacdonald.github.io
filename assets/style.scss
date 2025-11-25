@@ -59,6 +59,13 @@ div.bluesky-embed { margin: 0 auto }
   color: #777;
 }
 
+.prequel, .sequel {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-style: italic;
+}
+
 table {
   border-collapse: collapse;
   th, td {

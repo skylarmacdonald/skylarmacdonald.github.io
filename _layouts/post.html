@@ -16,8 +16,22 @@ layout: default
 		<div class="p-name">{{ page.title }}</div>
 	</h1>
 
+	{% if page.prequel %}
+		{% assign prequel_post = site.posts | find: 'path', page.prequel %}
+		<p class="prequel">
+			This post is a sequel to: <a href="{{ prequel_post.url }}">{{ prequel_post.title }}</a>
+		</p>
+	{% endif %}
+
 	<p class="preamble">{{ page.preamble }}</p>
 	<div class="e-content" itemprop="articleBody">{{ content }}</div>
+
+	{% if page.sequel %}
+		{% assign sequel_post = site.posts | find: 'path', page.sequel %}
+		<p class="sequel">
+			Read the next part: <a href="{{ sequel_post.url }}">{{ sequel_post.title }}</a>
+		</p>
+	{% endif %}
 
 	<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" id="permalink" rel="canonical" class="u-url" itemprop="url">
 		<i class="fa fa-link"></i>
