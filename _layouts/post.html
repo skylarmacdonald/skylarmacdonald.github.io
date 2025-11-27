@@ -13,13 +13,13 @@ layout: default
 		{% endif %}
 	</div>
 	<h1 class="post-title" itemprop="headline name">
-		<div class="p-name">{{ page.title }}</div>
+		<div class="p-name">{{ page.title | smartify }}</div>
 	</h1>
 
 	{% if page.prequel %}
 		{% assign prequel_post = site.posts | find: 'path', page.prequel %}
 		<p class="prequel">
-			This post is a sequel to: <a href="{{ prequel_post.url }}">{{ prequel_post.title }}</a>
+			This post is a sequel to: <a href="{{ prequel_post.url }}">{{ prequel_post.title | smartify }}</a>
 		</p>
 	{% endif %}
 
@@ -29,7 +29,7 @@ layout: default
 	{% if page.sequel %}
 		{% assign sequel_post = site.posts | find: 'path', page.sequel %}
 		<p class="sequel">
-			Read the next part: <a href="{{ sequel_post.url }}">{{ sequel_post.title }}</a>
+			Read the next part: <a href="{{ sequel_post.url }}">{{ sequel_post.title | smartify }}</a>
 		</p>
 	{% endif %}
 
@@ -74,7 +74,7 @@ layout: default
 					<ul>
 				{% endif %}
 				{% assign relatedPostsExist = true %}
-				<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+				<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | smartify }}</a></li>
 				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 				{% if maxRelatedCounter >= maxRelated %}
 					{% break %}
