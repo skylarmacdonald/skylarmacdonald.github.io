@@ -8,6 +8,7 @@ image_alt: Screenshot of the Apple Music app open to a Smart Playlist entitled '
 description: I'm trying to buy the top songs in my streaming library, because it's probably the right thing to do
 toot: # to follow
 preamble: This post is long and a bit heavy on the screenshots/embeds. Sorry.
+sequel: _posts/2025-12-07-buying-music-update.md
 ---
 
 So here's the idea:
