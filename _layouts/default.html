@@ -24,6 +24,7 @@
 		<main {% if page.collection != 'talks' %}itemscope itemtype="https://schema.org/Blog"{% endif %}>
 			{% if page.layout == "home" %}
 				<div id="site_description" class="p-note">{{ site.description }}</div>
+				<meta itemprop="author" content="https://skye.fyi">
 			{% endif %}
 			{{ content }}
 			{% if page.layout == "post" %}
