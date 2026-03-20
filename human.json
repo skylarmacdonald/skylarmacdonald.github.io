@@ -55,7 +55,15 @@
 			"vouched_at": "2026-03-20"
 		},
 		{
-			"url": "https://owen.blacker.me.uk/",
+			"url": "https://owen.blacker.me.uk",
+			"vouched_at": "2026-03-20"
+		},
+		{
+			"url": "https://jennschiffer.com",
+			"vouched_at": "2026-03-20"
+		},
+		{
+			"url": "https://livelaugh.blog",
 			"vouched_at": "2026-03-20"
 		}
 	]
