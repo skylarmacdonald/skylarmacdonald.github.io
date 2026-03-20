@@ -5,3 +5,7 @@
 /feed.xml
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+
+/human.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
