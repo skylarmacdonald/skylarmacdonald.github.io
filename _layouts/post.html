@@ -23,6 +23,12 @@ layout: default
 		</p>
 	{% endif %}
 
+	{% if page.retropost %}
+		<p class="retropost">
+			This is a retropost &mdash; written contemporaneously, but published some time later.
+		</p>
+	{% endif %}
+
 	<p class="preamble">{{ page.preamble }}</p>
 	<div class="e-content" itemprop="articleBody">{{ content }}</div>
 

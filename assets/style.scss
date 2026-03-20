@@ -59,11 +59,16 @@ div.bluesky-embed { margin: 0 auto }
   color: #777;
 }
 
-.prequel, .sequel {
+.prequel, .sequel, .retropost {
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: .5rem;
   font-style: italic;
+}
+
+.retropost {
+  background: #dff;
+  border-color: #bff;
 }
 
 table {
