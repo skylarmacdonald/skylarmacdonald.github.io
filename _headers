@@ -1,6 +1,7 @@
 /*
   X-Edent-Fiver: optout
   Pronouns: she/her
+  Link: </human.json>; rel="human-json"
 
 /feed.xml
   Access-Control-Allow-Origin: *
